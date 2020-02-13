@@ -36,3 +36,78 @@
     transform: rotate(360deg);
   }
 }
+
+.App-menu
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.App-menu-item
+{
+  float: left;
+}
+
+.App-menu-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.App-menu-item a:hover:not(.App-menu-item-active) {
+  background-color: #111;
+}
+
+.App-menu-item-active {
+  background-color: #4CAF50;
+}
+
+.App-menu-lateral
+{
+   width: 30%;
+   position: fixed;
+   right: 0;
+   top: 13.5%;
+   width: 8em;
+   margin-top: -2.5em; 
+   background-color: #333;
+   
+
+}
+
+.App-menu-lateral-item
+{
+  margin: 0; padding: 0px;
+  border-bottom: 1px solid #CCC;
+  text-align: left;
+  list-style-type: none;
+}
+
+.App-menu-lateral-item a 
+{
+  background: #F5F5F5;
+  color: #666;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px;
+  display: block;
+}
+
+.App-menu-lateral-item a:hover:not(.App-menu-item-active) {
+  background-color: #111;
+}
+
+.App-tabela
+{
+  width: 80%;
+}
+
+.App-tabela-linha
+{
+  width: 50%;
+}

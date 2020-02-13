@@ -1,12 +1,27 @@
 import React from 'react';
 import logo from './logo.svg';
+import logoEmp from './img/logo.png';
 import './App.css';
+import  { MainNavbar } from  "./MainNavbar.js";
+import  { SideBar }  from "./SideBar.js";
+import  { Cabecalho } from  "./Cabecalho.js";
+import  { Artigo } from "./Artigo.js";
 
 function App() {
   return (
     <div className="App">
+      <Cabecalho/>
+
+      <MainNavbar/>
+
+
+      <Artigo/> 
+      <SideBar/>
+
+      
+
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+{/*         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -18,7 +33,13 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+ */}      
+ 
+    </header>
+
+
+
+
     </div>
   );
 }
